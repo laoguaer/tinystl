@@ -1,0 +1,9 @@
+1. deque 中的 构造函数
+    - 1 将构造函数的size_t类型参数改为int
+    - 2 template <class Iterator, class size_type = typename Iterator::size_type> 
+    - 将模板参数列里面新增限制条件
+
+2. 移动构造
+3. initialize_list 构造
+4. resize() 函数未完成
+5. 嵌套容器错误
