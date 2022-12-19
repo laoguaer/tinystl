@@ -1,0 +1,16 @@
+2022-12-19 12:34:16.383 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2022-12-19 12:34:16.383 [info] Added views:workbench.panel.output in workbench.panel.output
+2022-12-19 12:34:16.383 [info] Added views:terminal in terminal
+2022-12-19 12:34:16.383 [info] Added views:outline in workbench.view.explorer
+2022-12-19 12:34:16.383 [info] Added views:workbench.scm in workbench.view.scm
+2022-12-19 12:34:16.383 [info] Added views:workbench.view.search in workbench.view.search
+2022-12-19 12:34:16.383 [info] Added views:timeline in workbench.view.explorer
+2022-12-19 12:34:16.383 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2022-12-19 12:34:16.383 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug
+2022-12-19 12:34:17.014 [info] Added views:outlinerExplorerView in workbench.view.extension.go-outliner
+2022-12-19 12:34:17.016 [info] Added views:dockerContainers,dockerImages,dockerRegistries,dockerNetworks,dockerVolumes,vscode-docker.views.dockerContexts,vscode-docker.views.help in workbench.view.extension.dockerView
+2022-12-19 12:34:17.017 [info] Added views:remoteTargets in workbench.view.remote
+2022-12-19 12:34:17.019 [info] Added views:clangtidychecks,clangtidydiagnostics in workbench.view.extension.clangtidygui
+2022-12-19 12:34:17.337 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2022-12-19 12:34:17.337 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
+2022-12-19 12:34:17.337 [info] Added views:workbench.debug.welcome in workbench.view.debug

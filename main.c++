@@ -13,7 +13,6 @@
 #include "queue.h"
 #include <queue>
 #include <algorithm>
-#include <list>
 #include "pair.h"
 #include <set>
 #include "rb_tree.h"
@@ -26,19 +25,18 @@
 #include <typeinfo>
 #include <memory>
 #include "util.h"
-#include <algorithm>
 using namespace mystl;
 
-class test{
+class Test{
   public:
-    test() : val(0) {};
-    test(int i) : val(i) {}
-    test(test& rhs) : val(rhs.val) { printf("copy construct!\n"); }
-    test(test&& rhs) : val(rhs.val) { printf("move construct!\n"); }
+    Test() : val_(0) {};
+    explicit Test(int i) : val_(i) {}
+    Test(Test& rhs) : val_(rhs.val_) { printf("copy construct!\n"); }
+    Test(Test&& rhs)  noexcept : val_(rhs.val_) { printf("move construct!\n"); }
 
-    int val;
+    int val_;
 };
 
-int main() {    
+auto main() -> int {    
     printf("%d\n", __cplusplus);
 }
